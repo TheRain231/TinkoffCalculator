@@ -11,7 +11,6 @@ class ViewController: UIViewController {
 
     @IBAction func buttonPressed(_ sender: UIButton) {
         guard let text = sender.currentTitle else{
-            print("no")
             return
         }
         print(text)
